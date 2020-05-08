@@ -1,6 +1,7 @@
 pkgname=libmodplug
 pkgver=0.8.9.0
 pkgrel=1
+arch=('mips')
 url="https://www.theora.org/"
 source=("http://deb.debian.org/debian/pool/main/libm/libmodplug/${pkgname}_${pkgver}.orig.tar.gz" "libmodplug-0.8.9.0-PSP.patch")
 sha256sums=('457ca5a6c179656d66c01505c0d95fafaead4329b9dbaa0f997d00a3508ad9de' 'SKIP')
